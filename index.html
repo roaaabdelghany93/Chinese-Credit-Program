@@ -1,169 +1,144 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>برنامج الساعات المعتمدة | قسم اللغة الصينية</title>
-  <meta name="description" content="برنامج الساعات المعتمدة - قسم اللغة الصينية - كلية الآداب - جامعة القاهرة">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Noto+Kufi+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Chinese Program - Cairo University</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    overflow:hidden;
+    font-family:"Tahoma", sans-serif;
+
+    background:
+    linear-gradient(
+        135deg,
+        #f4dfc1,
+        #e8b7a1,
+        #b86b5b
+    );
+
+    position:relative;
+}
+
+
+/* زخرفة صينية في الخلفية */
+
+.wall{
+    position:absolute;
+    bottom:-40px;
+    right:-50px;
+    width:80%;
+    height:170px;
+    border-top:25px solid rgba(120,70,40,0.25);
+    border-radius:50%;
+    transform:rotate(-8deg);
+}
+
+
+/* القصر الصيني */
+
+.palace{
+    position:absolute;
+    left:25px;
+    top:80px;
+    font-size:120px;
+}
+
+
+/* جامعة القاهرة */
+
+.cairo{
+    position:absolute;
+    right:40px;
+    top:180px;
+    font-size:120px;
+}
+
+
+/* الكتابة الصينية */
+
+.chinese{
+    position:absolute;
+    top:120px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size:100px;
+    color:rgba(120,40,30,0.25);
+}
+
+
+/* الباندا */
+
+.panda{
+    position:absolute;
+    top:0;
+    right:120px;
+    font-size:90px;
+}
+
+
+/* المحتوى لاحقا */
+
+.content{
+    position:relative;
+    z-index:2;
+    text-align:center;
+    padding-top:350px;
+}
+
+
+h1{
+    color:#7a3025;
+    font-size:42px;
+}
+
+</style>
+
 </head>
 <body>
 
-<header class="header">
-  <div class="brand-row">
-    <img class="logo university" src="images/cairo-university.jpg" alt="شعار جامعة القاهرة">
-    <img class="logo program" src="images/chp.jpg" alt="شعار برامج الساعات المعتمدة">
-    <img class="logo faculty" src="images/faculty-arts.jpg" alt="شعار كلية الآداب جامعة القاهرة">
-  </div>
+<div class="wall"></div>
 
-  <nav class="nav" aria-label="التنقل الرئيسي">
-    <a class="active" href="#home">الرئيسية</a>
-    <a href="#about">عن البرنامج</a>
-    <a href="#features">مميزات البرنامج</a>
-    <a href="#info">معلومات التقديم</a>
-    <a href="#updates">آخر المستجدات</a>
-  </nav>
-</header>
+<div class="palace">
+🏯
+</div>
 
-<main>
-  <section id="home" class="hero">
-    <div class="hero-content">
-      <div class="small-title">برنامج الساعات المعتمدة</div>
-      <h1>قسم اللغة الصينية</h1>
-      <h2>كلية الآداب – جامعة القاهرة</h2>
-      <p>
-        بوابتك للتخصص في اللغة الصينية، واكتساب المعرفة اللغوية والثقافية
-        التي تفتح أمامك آفاقًا أكاديمية ومهنية متنوعة.
-      </p>
-      <a href="#info" class="main-btn">ابدأ التقديم الآن <span>←</span></a>
-    </div>
+<div class="cairo">
+🏛️
+</div>
 
-    <div class="hero-visual" aria-hidden="true">
-      <div class="circle circle-one"></div>
-      <div class="circle circle-two"></div>
-      <div class="chinese">中</div>
-      <div class="brush">文</div>
-      <div class="mountain mountain-a"></div>
-      <div class="mountain mountain-b"></div>
-    </div>
-  </section>
+<div class="chinese">
+中文
+</div>
 
-  <section id="about" class="about section">
-    <div class="about-art">
-      <div class="vertical-text">语言 · 文化 · 未来</div>
-    </div>
-    <div class="about-text">
-      <span class="section-kicker">تعرف على البرنامج</span>
-      <h2>نبذة عن البرنامج</h2>
-      <p>
-        يتيح برنامج الساعات المعتمدة بقسم اللغة الصينية للطلاب دراسة اللغة
-        الصينية في إطار أكاديمي متخصص، مع الاهتمام بالمهارات اللغوية والثقافة
-        الصينية بما يتناسب مع احتياجات الدراسة وسوق العمل.
-      </p>
-      <p class="note">* سيتم استبدال هذا النص بالمعلومات الرسمية الخاصة بالبرنامج.</p>
-    </div>
-  </section>
+<div class="panda">
+🐼
+</div>
 
-  <section id="features" class="section">
-    <div class="heading">
-      <span class="section-kicker">لماذا تختار البرنامج؟</span>
-      <h2>مميزات دراسة اللغة الصينية</h2>
-    </div>
 
-    <div class="feature-grid">
-      <article class="feature">
-        <div class="icon">文</div>
-        <h3>تخصص لغوي</h3>
-        <p>دراسة اللغة الصينية ضمن برنامج أكاديمي متخصص ومنظم.</p>
-      </article>
-      <article class="feature">
-        <div class="icon">中</div>
-        <h3>ثقافة وحضارة</h3>
-        <p>التعرف على جوانب مهمة من الثقافة والحضارة الصينية.</p>
-      </article>
-      <article class="feature">
-        <div class="icon">✦</div>
-        <h3>آفاق مهنية</h3>
-        <p>تنمية مهارات يمكن توظيفها في مجالات متنوعة بعد التخرج.</p>
-      </article>
-      <article class="feature">
-        <div class="icon">学</div>
-        <h3>بيئة أكاديمية</h3>
-        <p>التعلم في إطار أكاديمي تابع لكلية الآداب بجامعة القاهرة.</p>
-      </article>
-    </div>
-  </section>
+<div class="content">
 
-  <section id="info" class="section info-section">
-    <div class="heading">
-      <span class="section-kicker">كل ما تحتاج إلى معرفته</span>
-      <h2>معلومات التقديم</h2>
-    </div>
+<h1>
+برنامج اللغة الصينية
+</h1>
 
-    <div class="info-grid">
-      <article class="info-card">
-        <div class="number">01</div>
-        <h3>شروط القبول</h3>
-        <p>ستتم إضافة شروط القبول الرسمية هنا.</p>
-      </article>
+<p>
+جامعة القاهرة
+</p>
 
-      <article class="info-card">
-        <div class="number">02</div>
-        <h3>الأوراق المطلوبة</h3>
-        <p>ستتم إضافة قائمة المستندات المطلوبة هنا.</p>
-      </article>
+</div>
 
-      <article class="info-card">
-        <div class="number">03</div>
-        <h3>مواعيد التقديم</h3>
-        <p>ستتم إضافة مواعيد فتح وغلق باب التقديم هنا.</p>
-      </article>
 
-      <article class="info-card">
-        <div class="number">04</div>
-        <h3>خطوات التقديم</h3>
-        <p>ستتم إضافة خطوات التقديم بالتفصيل هنا.</p>
-      </article>
-
-      <article class="info-card wide">
-        <div class="number">05</div>
-        <h3>رسوم ومعلومات البرنامج</h3>
-        <p>ستتم إضافة الرسوم الدراسية وأي معلومات مهمة أخرى هنا بعد تزويدي بالبيانات الرسمية.</p>
-      </article>
-    </div>
-  </section>
-
-  <section id="updates" class="updates">
-    <div>
-      <span class="section-kicker light-kicker">ابقَ على اطلاع</span>
-      <h2>تابع آخر المستجدات</h2>
-      <p>تابع الإعلانات والأخبار الجديدة الخاصة ببرامج الساعات المعتمدة.</p>
-    </div>
-    <a class="facebook-btn" href="#" target="_blank" rel="noopener">
-      تابع صفحة البرنامج على فيسبوك
-      <span>↗</span>
-    </a>
-  </section>
-</main>
-
-<footer class="footer">
-  <div class="footer-logos">
-    <img src="images/cairo-university.jpg" alt="جامعة القاهرة">
-    <img src="images/chp.jpg" alt="برامج الساعات المعتمدة">
-    <img src="images/faculty-arts.jpg" alt="كلية الآداب">
-  </div>
-  <div class="footer-text">
-    <strong>برنامج الساعات المعتمدة – قسم اللغة الصينية</strong>
-    <span>كلية الآداب – جامعة القاهرة</span>
-  </div>
-  <div class="copyright">© <span id="year"></span> جميع الحقوق محفوظة</div>
-</footer>
-
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
 </body>
+
 </html>
